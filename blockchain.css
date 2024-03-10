@@ -1,0 +1,131 @@
+body {
+    /* background-color: #444242; */
+    background-image: url(ai-generated-8554566_1920.png);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+   
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.account .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.account .details {
+    flex: 1;
+}
+
+.account .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.account .address {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.account .balance {
+    font-size: 16px;
+}
+
+.account .balance span {
+    color: #666;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #7fbcfe;
+    color:rgb(0, 0, 0)
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-blend-mode: soft-light;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #777777;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .logout-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .logout-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .parent-element {
+    text-align: center;
+}
+.centered-heading {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
